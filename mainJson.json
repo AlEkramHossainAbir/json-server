@@ -1,0 +1,49 @@
+{
+    "message": {
+      "success": ["Data Structure Retrieved Successfully"]
+    },
+    "tracer": null,
+    "mainJson": {
+        "message": {
+          "success": ["Data Structure Retrieved Successfully"]
+        },
+        "tracer": null,
+        "data": {
+            "routes": [
+                {
+                  "path": "/table",
+                  "component": "DataTable",
+                  "openAs": "page"
+                },
+                {
+                  "path": "/table/addNew",
+                  "component": "FormComponent",
+                  "openAs": "sidebar"
+                },
+                {
+                  "path": "/table/:id",
+                  "component": "FormComponent",
+                  "openAs": "sidebar"
+                },
+                {
+                  "path": "/table/:id/addNew",
+                  "component": "FormComponent",
+                  "openAs": "sidebar"
+                },
+                {
+                  "path": "/calendar",
+                  "component": "CalenderComponent",
+                  "openAs": "page"
+                },
+                {
+                  "path": "/calendar/addNew",
+                  "component": "FormComponent",
+                  "openAs": "sidebar",
+                  "structure":"http://localhost:5002/data"
+                }
+              ]
+
+        }
+      }
+  }
+  

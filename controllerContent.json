@@ -1,0 +1,30 @@
+{
+    "controllers": [
+        {
+            "controlName": "Control_Switcher",
+            "dataKey": "sda",
+            "label": "fsdf",
+            "description": "sdfds",
+            "separator": "before"
+        },
+        {
+            "controlName": "Select Control",
+            "dataKey": "dasd",
+            "label": "dasdasd",
+            "description": "dasdad",
+            "options": [
+                {
+                    "key": "dasdas",
+                    "value": "dsadsad",
+                    "separator": "before",
+                    "new_item": [
+                        {
+                            "key": "dasdasd",
+                            "value": "dasdasdasd"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

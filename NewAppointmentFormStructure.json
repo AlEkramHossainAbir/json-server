@@ -1,0 +1,683 @@
+{
+    "message": {
+      "success": ["Data Structure Retrieved Successfully"]
+    },
+    "tracer": null,
+    "data": {
+      "form": {
+        "action": "http://45.248.150.228:8885/component/modules/people/employee/profile-info/basic-information/store-content",
+        "method": "post",
+        "elements": {
+          "default":{
+            "title":"Default Details",
+            "fields":[
+            {
+              "type": "Row",
+              "childElements": [
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
+                      "type": "text",
+                      "label": "First Name",
+                      "validation": "required|string",
+                      "props": {
+                        "placeholder": "Enter First Name"
+                      },
+                      "name": "name"
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
+                      "type": "text",
+                      "label": "Category",
+                      "validation": "required|string",
+                      "props": {
+                        "placeholder": "Enter category"
+                      },
+                      "name": "category"
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
+                      "type": "text",
+                      "label": "Price",
+                      "validation": "required|string",
+                      "props": {
+                        "placeholder": "Enter Price"
+                      },
+                      "name": "price"
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
+                      "type": "text",
+                      "label": "Duration",
+                      "validation": "required|string",
+                      "props": {
+                        "placeholder": "Enter duration"
+                      },
+                      "name": "duration"
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
+        
+                      "type": "textarea",
+                      "label": "Address",
+                      "props": {
+                        "placeholder": "Enter Middle Name"
+                      },
+                      "name": "address"
+                    }
+                  ]
+                },
+                {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+          
+                        "type": "email",
+                        "label": "Email",
+                        "props": {
+                          "placeholder": "Enter Your Email Address"
+                        },
+                        "name": "email"
+                      }
+                    ]
+                  },
+                {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+          
+                        "type": "password",
+                        "label": "Password",
+                        "props": {
+                          "placeholder": "Input Password"
+                        },
+                        "name": "password"
+                      }
+                    ]
+                  },
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
+    
+                      "type": "number",
+                      "label": "Count",
+                      "props": {
+                        "placeholder": "Enter Count Value"
+                      },
+                      "name": "count_number"
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
+                      "type": "phone",
+                      "label": "Phone Number",
+                      "props": {
+                        "placeholder": "Input Phone Number"
+                      },
+                      "name": "phone"
+                    }
+                  ]
+                },
+                {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "select",
+                        "label": "Blood Group",
+                        "props": {
+                          "optionsdata": [
+                            {
+                              "label": "A+",
+                              "value": "A+"
+                            },
+                            {
+                              "label": "A-",
+                              "value": "A-"
+                            },
+                            {
+                              "label": "B+",
+                              "value": "B+"
+                            },
+                            {
+                              "label": "B-",
+                              "value": "B-"
+                            },
+                            {
+                              "label": "O+",
+                              "value": "O+"
+                            },
+                            {
+                              "label": "O-",
+                              "value": "O-"
+                            },
+                            {
+                              "label": "AB+",
+                              "value": "AB+"
+                            },
+                            {
+                              "label": "AB-",
+                              "value": "AB-"
+                            }
+                          ],
+                          "placeholder": "Blood Group"
+                        },
+                        "name": "blood_group"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "select",
+                        "label": "Gender",
+                        "props": {
+                          "optionsapi": "http://45.248.150.228:8885/component/modules/people/employee-gender-option/list/advanced-filter/search",
+                          "customdata":"http://45.248.150.228:8885/component/modules/people/employee-gender-option/list/advanced-filter/search",
+                          "placeholder": "Gender"
+                        },
+                        "name": "employee_gender_option_id"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "date",
+                        "label": "Date of Birth",
+                        "props": {
+                          "placeholder": "Enter Date of Birth"
+                        },
+                        "name": "date_of_birth_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "daterange",
+                        "label": "Employment Range",
+                        "props": {
+                          "placeholder": ""
+                        },
+                        "name": "employment_range_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "time",
+                        "label": "Select Time",
+                        "props": {
+                          "placeholder": ""
+                        },
+                        "name": "select_time_default_01"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "timerange",
+                        "label": "Select Time Range",
+                        "props": {
+                          "placeholder": ""
+                        },
+                        "name": "time_range_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "date",
+                        "label": "Select Date Time",
+                        "props": {
+                          "placeholder": "",
+                          "showTime": true
+                        },
+                        "name": "select_date_time_default_01"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "daterange",
+                        "label": "Select Date Time Range",
+                        "props": {
+                          "placeholder": "",
+                          "showTime": true
+                        },
+                        "name": "date_time_range_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "slider",
+                        "label": "Slider Range",
+                        "props": {
+                          "defaultValue": 30
+                        },
+                        "name": "slider_range_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "radio",
+                        "label": "Chart Group",
+                        "props": {
+                          "optionsdata": [
+                            {
+                              "label": "line Chart",
+                              "value": "line Chart"
+                            },
+                            {
+                              "label": "Dot Chart",
+                              "value": "Dot Chart"
+                            },
+                            {
+                              "label": "Bar Chart",
+                              "value": "Bar Chart"
+                            },
+                            {
+                              "label": "Pie Chart",
+                              "value": "Pie Chart"
+                            }
+                          ],
+                          "placeholder": ""
+                        },
+                        "name": "chart_group_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "radio",
+                        "label": "Gender Group",
+                        "props": {
+                          "optionsapi": "http://45.248.150.228:8885/component/modules/people/employee-gender-option/list/advanced-filter/search",
+                          "placeholder": ""
+                        },
+                        "name": "gender_group_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "checkbox",
+                        "label": "Chart Box",
+                        "props": {
+                          "optionsdata": [
+                            {
+                              "label": "line Chart",
+                              "value": "line Chart"
+                            },
+                            {
+                              "label": "Dot Chart",
+                              "value": "Dot Chart"
+                            },
+                            {
+                              "label": "Bar Chart",
+                              "value": "Bar Chart"
+                            },
+                            {
+                              "label": "Pie Chart",
+                              "value": "Pie Chart"
+                            }
+                          ],
+                          "placeholder": ""
+                        },
+                        "name": "static_checkbox_group_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "checkbox",
+                        "label": "Dynamic Checkbox Group",
+                        "props": {
+                          "optionsapi": "http://45.248.150.228:8885/component/modules/people/employee-gender-option/list/advanced-filter/search",
+                          "placeholder": ""
+                        },
+                        "name": "dynamic_checkbox_group_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "toggler",
+                        "label": "Toggle Content",
+                        "props": {
+                          "defaultChecked": true,
+                          "checkedChildren": "On",
+                          "unCheckedChildren": "Off"
+                        },
+                        "name": "toggle_content_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "color",
+                        "label": "Color Picker",
+                        "props": {
+                          "showText": true
+                        },
+                        "name": "color_content_default"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Col",
+                    "props": {
+                      "span": 12
+                    },
+                    "childElements": [
+                      {
+                        "type": "media",
+                        "label": "Image Picker",
+                        "props": {
+                          "showText": true
+                        },
+                        "name": "media_content_default"
+                      }
+                    ]
+                  },
+                   {
+                                  "type": "Col",
+                                  "props": {
+                                      "span": 24
+                                  },
+                                  "childElements": [
+                                      {
+                                          "fillable": true,
+                                          "sortable": false,
+                                          "filterable": false,
+                                          "type": "repeater",
+                                          "label": "Social Links",
+                                          "name": "social_links_default_01",
+                                          "props": {
+                                              "type": "Row",
+                                              "span": 24,
+                                              "actionButton": {
+                                                  "label": "Add"
+                                              },
+                                              "initialFields": [
+                                                  {
+                                                      "type": "Row",
+                                                      "childElements": [
+                                                          {
+                                                              "type": "Col",
+                                                              "props": {
+                                                                  "span": 8
+                                                              },
+                                                              "childElements": [
+                                                                  {
+                                                                      "fillable": true,
+                                                                      "sortable": true,
+                                                                      "filterable": true,
+                                                                      "type": "text",
+                                                                      "label": "Link",
+                                                                      "props": {
+                                                                          "placeholder": "Profile Link"
+                                                                      },
+                                                                      "name": "link_default"
+                                                                  }
+                                                              ]
+                                                          },
+                                                          {
+                                                              "type": "Col",
+                                                              "props": {
+                                                                  "span": 8
+                                                              },
+                                                              "childElements": [
+                                                                  {
+                                                                      "fillable": true,
+                                                                      "sortable": true,
+                                                                      "filterable": true,
+                                                                      "type": "text",
+                                                                      "label": "User Name",
+                                                                      "props": {
+                                                                          "placeholder": "User Name"
+                                                                      },
+                                                                      "name": "user_name_default"
+                                                                  }
+                                                              ]
+                                                          },
+                                                          {
+                                                              "type": "Col",
+                                                              "props": {
+                                                                  "span": 24
+                                                              },
+                                                              "childElements":  [
+                                                                {
+                                                                    "fillable": true,
+                                                                    "sortable": false,
+                                                                    "filterable": false,
+                                                                    "type": "repeater",
+                                                                    "label": "Social Links",
+                                                                    "name": "social_links_test",
+                                                                    "props": {
+                                                                        "type": "Row",
+                                                                        "span": 24,
+                                                                        "actionButton": {
+                                                                            "label": "Add"
+                                                                        },
+                                                                        "initialFields": [
+                                                                            {
+                                                                                "type": "Row",
+                                                                                "childElements": [
+                                                                                    {
+                                                                                        "type": "Col",
+                                                                                        "props": {
+                                                                                            "span": 8
+                                                                                        },
+                                                                                        "childElements": [
+                                                                                            {
+                                                                                                "fillable": true,
+                                                                                                "sortable": true,
+                                                                                                "filterable": true,
+                                                                                                "type": "text",
+                                                                                                "label": "Link",
+                                                                                                "props": {
+                                                                                                    "placeholder": "Profile Link"
+                                                                                                },
+                                                                                                "name": "link"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "Col",
+                                                                                        "props": {
+                                                                                            "span": 8
+                                                                                        },
+                                                                                        "childElements": [
+                                                                                            {
+                                                                                                "fillable": true,
+                                                                                                "sortable": true,
+                                                                                                "filterable": true,
+                                                                                                "type": "text",
+                                                                                                "label": "User Name",
+                                                                                                "props": {
+                                                                                                    "placeholder": "User Name"
+                                                                                                },
+                                                                                                "name": "user_name"
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "Col",
+                                                                                        "props": {
+                                                                                            "span": 8
+                                                                                        },
+                                                                                        "childElements": [
+                                                                                            {
+                                                                                                "fillable": true,
+                                                                                                "sortable": true,
+                                                                                                "filterable": true,
+                                                                                                "type": "select",
+                                                                                                "label": "Social Type",
+                                                                                                "props": {
+                                                                                                    "optionsapi": "http:\/\/45.248.150.228:8887\/component\/modules\/people\/employee-social-option\/list\/advanced-filter\/search"
+                                                                                                    
+                                                                                                },
+                                                                                                "name": "social_type"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            ]
+                                                          }
+                                                      ]
+                                                  }
+                                              ]
+                                          }
+                                      }
+                                  ]
+                              }   
+              ]
+            }
+          ]
+          }
+         
+          
+        },
+        "props": {
+          "layout": "vertical"
+        }
+      },
+      "title": "Basic Information",
+      "icon": "AccountInfoLiner",
+      "actionItemsPosition": "top",
+      "actionItems": [
+        {
+          "label": "Create",
+          "icon": "CreateLiner",
+          "type": "create",
+          "props": []
+        }
+      ]
+    }
+  }
+  
