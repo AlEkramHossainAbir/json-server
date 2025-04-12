@@ -14,7 +14,8 @@
                 {
                     "name": "description",
                     "type": "textarea"
-                },  
+                },
+                {  
                     "name": "show_label",
                     "type": "switch",
                     "default": true
