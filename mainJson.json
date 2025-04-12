@@ -40,6 +40,12 @@
                   "component": "FormComponent",
                   "openAs": "sidebar",
                   "structure":"http://localhost:5002/data"
+                },
+                {
+                  "path": "/calendar/:id",
+                  "component": "FormComponent",
+                  "openAs": "sidebar",
+                  "structure":"http://localhost:5002/data"
                 }
               ]
 

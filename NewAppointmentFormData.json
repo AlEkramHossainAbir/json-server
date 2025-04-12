@@ -1,0 +1,17 @@
+{
+    "message": {
+        "success": [
+            "Data Retrieved Successfully"
+        ]
+    },
+    "tracer": null,
+    "data": {
+        "name": "gdf",
+        "category": "gdfg",
+        "price": "gdfg",
+        "duration": "gdg",
+        "address": "gdfgdg",
+        "email": "gdfgd",
+        "toggle_content_default": false
+    }
+}
