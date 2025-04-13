@@ -223,24 +223,6 @@
                     },
                     "childElements": [
                       {
-                        "type": "select",
-                        "label": "Gender",
-                        "props": {
-                          "optionsapi": "http://45.248.150.228:8885/component/modules/people/employee-gender-option/list/advanced-filter/search",
-                          "customdata":"http://45.248.150.228:8885/component/modules/people/employee-gender-option/list/advanced-filter/search",
-                          "placeholder": "Gender"
-                        },
-                        "name": "employee_gender_option_id"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "Col",
-                    "props": {
-                      "span": 12
-                    },
-                    "childElements": [
-                      {
                         "type": "date",
                         "label": "Date of Birth",
                         "props": {
