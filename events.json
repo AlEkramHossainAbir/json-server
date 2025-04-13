@@ -1,16 +1,18 @@
 {
   "events": [
     {
-      "id": "1",
+      "id": "e92u7t6g656",
       "title": "Doctor Appointment",
-      "start": "2025-04-15",
-      "end": ""
+      "start": "2025-04-03",
+      "end": "",
+      "category":"medical"
     },
     {
-      "id": "2",
+      "id": "e2",
       "title": "Team Meeting",
-      "start": "2025-04-14T10:00:00+06:00",
-      "end": "2025-04-14T11:00:00+06:00"
+      "start": "2025-04-15T10:00:00+06:00",
+      "end": "2025-04-15T11:00:00+06:00",
+      "category": "work"
     }
   ]
 }

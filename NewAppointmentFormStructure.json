@@ -22,12 +22,12 @@
                   "childElements": [
                     {
                       "type": "text",
-                      "label": "First Name",
+                      "label": "Title",
                       "validation": "required|string",
                       "props": {
-                        "placeholder": "Enter First Name"
+                        "placeholder": "Enter Title"
                       },
-                      "name": "name"
+                      "name": "title"
                     }
                   ]
                 },

@@ -45,7 +45,8 @@
                   "path": "/calendar/:id",
                   "component": "FormComponent",
                   "openAs": "sidebar",
-                  "structure":"http://localhost:5002/data"
+                  "structure":"http://localhost:5002/data",
+                  "content":"http://localhost:5003/events"
                 }
               ]
 
