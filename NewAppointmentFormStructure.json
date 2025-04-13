@@ -55,6 +55,38 @@
                   },
                   "childElements": [
                     {
+                      "type": "date",
+                      "label": "Start Date",
+                      "props": {
+                        "placeholder": "Enter Start Date"
+                      },
+                      "name": "start"
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
+                      "type": "date",
+                      "label": "End Date",
+                      "props": {
+                        "placeholder": "Enter End Date"
+                      },
+                      "name": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "span": 12
+                  },
+                  "childElements": [
+                    {
                       "type": "text",
                       "label": "Price",
                       "validation": "required|string",
@@ -216,22 +248,7 @@
                       }
                     ]
                   },
-                  {
-                    "type": "Col",
-                    "props": {
-                      "span": 12
-                    },
-                    "childElements": [
-                      {
-                        "type": "date",
-                        "label": "Date of Birth",
-                        "props": {
-                          "placeholder": "Enter Date of Birth"
-                        },
-                        "name": "date_of_birth_default"
-                      }
-                    ]
-                  },
+                  
                   {
                     "type": "Col",
                     "props": {
