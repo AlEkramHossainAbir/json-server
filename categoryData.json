@@ -1,0 +1,47 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Health Counseling",
+        "description": "These services cover primary care, specialized treatments.",
+        "count": 14,
+        "icon": "❤️"
+      },
+      {
+        "id": 2,
+        "name": "Psychiatry & Counseling",
+        "description": "These services cover primary care, specialized treatments.",
+        "count": 6,
+        "icon": "➕"
+      },
+      {
+        "id": 3,
+        "name": "Physiotherapy",
+        "description": "These services cover primary care, specialized treatments.",
+        "count": 8,
+        "icon": "🏃"
+      },
+      {
+        "id": 4,
+        "name": "Ophthalmology",
+        "description": "These services cover primary care, specialized treatments.",
+        "count": 10,
+        "icon": "👁️"
+      },
+      {
+        "id": 5,
+        "name": "Orthopedics",
+        "description": "These services cover primary care, specialized treatments.",
+        "count": 12,
+        "icon": "⚗️"
+      },
+      {
+        "id": 6,
+        "name": "Dermatology",
+        "description": "These services cover primary care, specialized treatments.",
+        "count": 7,
+        "icon": "🧴"
+      }
+    ]
+  }
+  
