@@ -1,47 +1,95 @@
 {
-    "categories": [
-      {
-        "id": 1,
-        "name": "Health Counseling",
-        "description": "These services cover primary care, specialized treatments.",
-        "count": 14,
-        "icon": "❤️"
-      },
-      {
-        "id": 2,
-        "name": "Psychiatry & Counseling",
-        "description": "These services cover primary care, specialized treatments.",
-        "count": 6,
-        "icon": "➕"
-      },
-      {
-        "id": 3,
-        "name": "Physiotherapy",
-        "description": "These services cover primary care, specialized treatments.",
-        "count": 8,
-        "icon": "🏃"
-      },
-      {
-        "id": 4,
-        "name": "Ophthalmology",
-        "description": "These services cover primary care, specialized treatments.",
-        "count": 10,
-        "icon": "👁️"
-      },
-      {
-        "id": 5,
-        "name": "Orthopedics",
-        "description": "These services cover primary care, specialized treatments.",
-        "count": 12,
-        "icon": "⚗️"
-      },
-      {
-        "id": 6,
-        "name": "Dermatology",
-        "description": "These services cover primary care, specialized treatments.",
-        "count": 7,
-        "icon": "🧴"
-      }
-    ]
-  }
-  
+  "categories": [
+    {
+      "id": 1,
+      "name": "Health Counseling",
+      "description": "These services cover primary care, specialized treatments. icons will be provided as svg format",
+      "icon": "❤️",
+      "availableServices": [
+        {
+          "id": "physio",
+          "title": "Physiotherapy",
+          "price": 54,
+          "icon": "🧍‍♂️"
+        },
+        {
+          "id": "ortho",
+          "title": "Orthopedics",
+          "price": 66,
+          "icon": "🧪"
+        },
+        {
+          "id": "derma",
+          "title": "Dermatology",
+          "price": 62,
+          "icon": "🧴"
+        },
+        {
+          "id": "mri",
+          "title": "MRI & CT Scans",
+          "price": 94,
+          "icon": "🖥️"
+        },
+        {
+          "id": "nutrition",
+          "title": "Nutrition Advice",
+          "price": 48,
+          "icon": "🥗"
+        },
+        {
+          "id": "pathology",
+          "title": "Pathology",
+          "price": 39,
+          "icon": "🧬"
+        },
+        {
+          "id": "skin",
+          "title": "Skin Checks",
+          "price": 67,
+          "icon": "😊"
+        },
+        {
+          "id": "ophthal",
+          "title": "Ophthalmology",
+          "price": 76,
+          "icon": "👁️"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Psychiatry & Counseling",
+      "description": "These services cover primary care, specialized treatments.",
+      "icon": "➕",
+      "availableServices": []
+    },
+    {
+      "id": 3,
+      "name": "Physiotherapy",
+      "description": "These services cover primary care, specialized treatments.",
+      "icon": "🏃",
+      "availableServices": []
+    },
+    {
+      "id": 4,
+      "name": "Ophthalmology",
+      "description": "These services cover primary care, specialized treatments.",
+      "icon": "👁️",
+      "availableServices": []
+    },
+    {
+      "id": 5,
+      "name": "Orthopedics",
+      "description": "These services cover primary care, specialized treatments.",
+      "icon": "⚗️",
+      "availableServices": []
+    },
+    {
+      "id": 6,
+      "name": "Dermatology",
+      "description": "These services cover primary care, specialized treatments.",
+      "icon": "🧴",
+      "availableServices": []
+    }
+  ]
+}
