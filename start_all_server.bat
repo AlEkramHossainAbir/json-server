@@ -1,0 +1,5 @@
+start cmd /k "json-server --watch mainJson.json --port 5000"
+start cmd /k "json-server --watch controller.json --port 5001"
+start cmd /k "json-server --watch NewAppointmentFormStructure.json --port 5002"
+start cmd /k "json-server --watch NewAppointmentFormData.json --port 5003"
+start cmd /k "json-server --watch categoryData.json --port 5004"
