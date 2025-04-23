@@ -10,49 +10,257 @@
           "id": "physio",
           "title": "Physiotherapy",
           "price": 54,
-          "icon": "🧍‍♂️"
+          "icon": "🧍‍♂️",
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Jackson Pot",
+              "avatar": "https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+              "details": "Details about Jackson Pot"
+            },
+            {
+              "id": "emp2",
+              "name": "Hanson Deck",
+              "avatar": "https://img.freepik.com/free-vector/teenage-boy-with-black-hair-cartoon-character_1308-133556.jpg",
+              "details": "Details about Hanson Deck"
+            },
+            {
+              "id": "emp3",
+              "name": "Indigo Violet",
+              "avatar": "https://img.freepik.com/premium-vector/young-teenager-with-brown-hair_684058-1020.jpg",
+              "details": "Details about Indigo Violet"
+            },
+            {
+              "id": "emp4",
+              "name": "Miles Tone",
+              "avatar": "https://img.freepik.com/free-vector/young-prince-royal-attire_1308-176144.jpg",
+              "details": "Details about Miles Tone"
+            }
+  ]
         },
         {
           "id": "ortho",
           "title": "Orthopedics",
           "price": 66,
-          "icon": "🧪"
+          "icon": "🧪",
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Jackson Pot",
+              "avatar": "https://fakeimg.pl/80x80/?text=JP",
+              "details": "Details about Jackson Pot"
+            },
+            {
+              "id": "emp2",
+              "name": "Hanson Deck",
+              "avatar": "https://img.freepik.com/premium-vector/simple-cute-black-boy-ith-beard-icon-vector_960391-436.jpg",
+              "details": "Details about Hanson Deck"
+            },
+            {
+              "id": "emp3",
+              "name": "Indigo Violet",
+              "avatar": "https://fakeimg.pl/80x80/?text=IV",
+              "details": "Details about Indigo Violet"
+            },
+            {
+              "id": "emp4",
+              "name": "Miles Tone",
+              "avatar": "https://fakeimg.pl/80x80/?text=MT",
+              "details": "Details about Miles Tone"
+            }
+  ]
         },
         {
           "id": "derma",
           "title": "Dermatology",
           "price": 62,
-          "icon": "🧴"
+          "icon": "🧴",
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Jackson Pot",
+              "avatar": "https://fakeimg.pl/80x80/?text=JP",
+              "details": "Details about Jackson Pot"
+            },
+            {
+              "id": "emp2",
+              "name": "Hanson Deck",
+              "avatar": "https://fakeimg.pl/80x80/?text=HD",
+              "details": "Details about Hanson Deck"
+            },
+            {
+              "id": "emp3",
+              "name": "Indigo Violet",
+              "avatar": "https://fakeimg.pl/80x80/?text=IV",
+              "details": "Details about Indigo Violet"
+            },
+            {
+              "id": "emp4",
+              "name": "Miles Tone",
+              "avatar": "https://img.freepik.com/premium-vector/cool-cartoon-boy-avatar_987671-675.jpg",
+              "details": "Details about Miles Tone"
+            }
+  ]
         },
         {
           "id": "mri",
           "title": "MRI & CT Scans",
           "price": 94,
-          "icon": "🖥️"
+          "icon": "🖥️",
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Jackson Pot",
+              "avatar": "https://fakeimg.pl/80x80/?text=JP",
+              "details": "Details about Jackson Pot"
+            },
+            {
+              "id": "emp2",
+              "name": "Hanson Deck",
+              "avatar": "https://fakeimg.pl/80x80/?text=HD",
+              "details": "Details about Hanson Deck"
+            },
+            {
+              "id": "emp3",
+              "name": "Indigo Violet",
+              "avatar": "https://fakeimg.pl/80x80/?text=IV",
+              "details": "Details about Indigo Violet"
+            },
+            {
+              "id": "emp4",
+              "name": "Miles Tone",
+              "avatar": "https://fakeimg.pl/80x80/?text=MT",
+              "details": "Details about Miles Tone"
+            }
+  ]
         },
         {
           "id": "nutrition",
           "title": "Nutrition Advice",
           "price": 48,
-          "icon": "🥗"
+          "icon": "🥗",
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Jackson Pot",
+              "avatar": "https://fakeimg.pl/80x80/?text=JP",
+              "details": "Details about Jackson Pot"
+            },
+            {
+              "id": "emp2",
+              "name": "Hanson Deck",
+              "avatar": "https://fakeimg.pl/80x80/?text=HD",
+              "details": "Details about Hanson Deck"
+            },
+            {
+              "id": "emp3",
+              "name": "Indigo Violet",
+              "avatar": "https://fakeimg.pl/80x80/?text=IV",
+              "details": "Details about Indigo Violet"
+            },
+            {
+              "id": "emp4",
+              "name": "Miles Tone",
+              "avatar": "https://fakeimg.pl/80x80/?text=MT",
+              "details": "Details about Miles Tone"
+            }
+  ]
         },
         {
           "id": "pathology",
           "title": "Pathology",
           "price": 39,
-          "icon": "🧬"
+          "icon": "🧬",
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Jackson Pot",
+              "avatar": "https://fakeimg.pl/80x80/?text=JP",
+              "details": "Details about Jackson Pot"
+            },
+            {
+              "id": "emp2",
+              "name": "Hanson Deck",
+              "avatar": "https://fakeimg.pl/80x80/?text=HD",
+              "details": "Details about Hanson Deck"
+            },
+            {
+              "id": "emp3",
+              "name": "Indigo Violet",
+              "avatar": "https://fakeimg.pl/80x80/?text=IV",
+              "details": "Details about Indigo Violet"
+            },
+            {
+              "id": "emp4",
+              "name": "Miles Tone",
+              "avatar": "https://fakeimg.pl/80x80/?text=MT",
+              "details": "Details about Miles Tone"
+            }
+  ]
         },
         {
           "id": "skin",
           "title": "Skin Checks",
           "price": 67,
-          "icon": "😊"
+          "icon": "😊",
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Jackson Pot",
+              "avatar": "https://fakeimg.pl/80x80/?text=JP",
+              "details": "Details about Jackson Pot"
+            },
+            {
+              "id": "emp2",
+              "name": "Hanson Deck",
+              "avatar": "https://fakeimg.pl/80x80/?text=HD",
+              "details": "Details about Hanson Deck"
+            },
+            {
+              "id": "emp3",
+              "name": "Indigo Violet",
+              "avatar": "https://fakeimg.pl/80x80/?text=IV",
+              "details": "Details about Indigo Violet"
+            },
+            {
+              "id": "emp4",
+              "name": "Miles Tone",
+              "avatar": "https://fakeimg.pl/80x80/?text=MT",
+              "details": "Details about Miles Tone"
+            }
+  ]
         },
         {
           "id": "ophthal",
           "title": "Ophthalmology",
           "price": 76,
-          "icon": "👁️"
+          "icon": "👁️",
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Jackson Pot",
+              "avatar": "https://fakeimg.pl/80x80/?text=JP",
+              "details": "Details about Jackson Pot"
+            },
+            {
+              "id": "emp2",
+              "name": "Hanson Deck",
+              "avatar": "https://fakeimg.pl/80x80/?text=HD",
+              "details": "Details about Hanson Deck"
+            },
+            {
+              "id": "emp3",
+              "name": "Indigo Violet",
+              "avatar": "https://fakeimg.pl/80x80/?text=IV",
+              "details": "Details about Indigo Violet"
+            },
+            {
+              "id": "emp4",
+              "name": "Miles Tone",
+              "avatar": "https://fakeimg.pl/80x80/?text=MT",
+              "details": "Details about Miles Tone"
+            }
+  ]
         }
       ]
     },
