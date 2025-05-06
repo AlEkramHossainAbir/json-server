@@ -1,0 +1,81 @@
+{
+    "message": {
+        "success": [
+            "Data Structure Retrieved Successfully"
+        ]
+    },
+    "tracer": null,
+    "data": {
+        "searchable": true,
+        "fields": {
+            "columns": [
+              {
+                "title": "ID",
+                "dataIndex": "id",
+                "key": "id",
+                "width": 50,
+                "align": "center",
+                "sorter": true
+              },
+              {
+                "title": "NAME",
+                "dataIndex": "name",
+                "key": "name",
+                "width": 300,
+                "sorter": true,
+                "render": "link"
+              },
+              {
+                "title": "CATEGORY",
+                "dataIndex": "category",
+                "key": "category",
+                "width": 200,
+                "sorter": true
+              },
+              {
+                "title": "PRICE",
+                "dataIndex": "price",
+                "key": "price",
+                "width": 150,
+                "align": "right",
+                "sorter": true
+              },
+              {
+                "title": "DURATION",
+                "dataIndex": "duration",
+                "key": "duration",
+                "width": 150,
+                "align": "center",
+                "sorter": true
+              },
+              {
+                "title": "CREATED AT",
+                "dataIndex": "createdAt",
+                "key": "createdAt",
+                "width": 50,
+                "align": "center"
+              },
+              {
+                "title": "Actions",
+                "key": "actions",
+                "render": "actions",
+                "align": "center",
+                "width": 50
+              }
+            ],
+            "tableProps": {
+              "bordered": false,
+              "pagination": {
+                "pageSize": 8
+              },
+              "scroll": {
+                "x": "max-content"
+              },
+              "rowSelection": {}
+            }
+          },
+        "api": {
+            "store": "http:\/\/127.0.0.1:8000\/component\/modules\/leave-and-attendance\/leave-policy\/list\/advanced-filter\/store-content"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "message": {
+        "success": [
+            "Data Retrieved Successfully"
+        ]
+    },
+    "tracer": null,
+    "data": {
+        "_id": "678c8d7e4497a4e2ff01f72c",
+        "first_name": "ekram",
+        "middle_name": "Smith",
+        "category": "job",
+        "price": "$0.00",
+        "duration": "15m",
+        "preferred_name": "abir",
+        "address": "bns1120",
+        "email": "ekram@xpeedstudio.com",
+        "phone": "+8801711111111",
+        "date_of_birth": "2000-12-27T00:00:00.000000Z",
+        "social_security_no": null,
+        "tax_file_no": null,
+        "employee_status_option_id": "676bf09aa39b71a61b030cd2",
+        "employee_gender_option_id": "67848d575d9bdc6184076a4d",
+        "marital_status": "Single",
+        "blood_group": "O+",
+        "name": "Ekram abir",
+        "updated_at": "2025-02-25T07:18:09.701000Z",
+        "created_at": "2025-01-19T05:28:30.765000Z"
+        
+    }
+}
