@@ -1,7 +1,7 @@
 {
   "availability": [
     {
-      "date": "2025-05-01",
+      "date": "2025-05-10",
       "slots": [
         {
           "time": "09:00",
@@ -17,11 +17,31 @@
           "time": "11:00",
           "maxUsers": 5,
           "bookedUsers": 1
+        },
+        {
+          "time": "12:00",
+          "maxUsers": 5,
+          "bookedUsers": 2
+        },
+        {
+          "time": "1:00",
+          "maxUsers": 5,
+          "bookedUsers": 3
+        },
+        {
+          "time": "2:00",
+          "maxUsers": 5,
+          "bookedUsers": 3
+        },
+        {
+          "time": "3:00",
+          "maxUsers": 5,
+          "bookedUsers": 3
         }
       ]
     },
     {
-      "date": "2025-05-02",
+      "date": "2025-05-12",
       "slots": [
         {
           "time": "09:00",
@@ -41,7 +61,7 @@
       ]
     },
     {
-      "date": "2025-05-03",
+      "date": "2025-05-13",
       "slots": [
         {
           "time": "09:00",
