@@ -13,7 +13,8 @@
                 {
                   "path": "/table",
                   "component": "DataTable",
-                  "openAs": "page"
+                  "openAs": "page",
+                  "pageTitle": "Data Table"
                 },
                 {
                   "path": "/table/addNew",
@@ -49,6 +50,7 @@
                   "content":"http://localhost:5003/events"
                 }
               ]
+              
 
         }
       }

@@ -668,15 +668,7 @@
       },
       "title": "Basic Information",
       "icon": "AccountInfoLiner",
-      "actionItemsPosition": "top",
-      "actionItems": [
-        {
-          "label": "Create",
-          "icon": "CreateLiner",
-          "type": "create",
-          "props": []
-        }
-      ]
+      "actionItemsPosition": "top"
     }
   }
   
