@@ -1,77 +1,105 @@
 {
+  "message": {
+    "success": ["Data Structure Retrieved Successfully"]
+  },
+  "tracer": null,
+  "mainJson": {
     "message": {
       "success": ["Data Structure Retrieved Successfully"]
     },
     "tracer": null,
-    "mainJson": {
-        "message": {
-          "success": ["Data Structure Retrieved Successfully"]
+    "data": {
+      "routes": [
+        {
+          "path": "/table",
+          "component": "DataTable",
+          "openAs": "page",
+          "pageTitle": "Data Table",
+          "structure": "http://localhost:5008/data",
+          "content": "http://localhost:5009/data"
         },
-        "tracer": null,
-        "data": {
-            "routes": [
-                {
-                  "path": "/table",
-                  "component": "DataTable",
-                  "openAs": "page",
-                  "pageTitle": "Data Table",
-                  "structure":"http://localhost:5008/data",
-                  "content":"http://localhost:5009/data"
-                },
-                {
-                  "path": "/table/addNew",
-                  "component": "FormComponent",
-                  "openAs": "sidebar",
-                  "structure":"http://localhost:5006/data",
-                  "content":"http://localhost:5007/data",
-                  "pageTitle": "New Form Component"
-                },
-                {
-                  "path": "/table/:id",
-                  "component": "FormComponent",
-                  "openAs": "sidebar",
-                  "pageTitle": "Edit Form Component",
-                  "structure":"http://localhost:5006/data",
-                  "content":"http://localhost:5007/data"
-
-                },
-                {
-                  "path": "/table/:id/addNew",
-                  "component": "FormComponent",
-                  "openAs": "sidebar",
-                  "pageTitle": "Edit Select options",
-                  "structure":"http://localhost:5006/data",
-                  "content":"http://localhost:5007/data"
-                },
-                {
-                  "path": "/calendar",
-                  "component": "CalenderComponent",
-                  "openAs": "page",
-                  "pageTitle": "Edit Form Component",
-                  "structure":"http://localhost:5006/data",
-                  "content":"http://localhost:5007/data"
-                },
-                {
-                  "path": "/calendar/addNew",
-                  "component": "FormComponent",
-                  "openAs": "sidebar",
-                  "structure":"http://localhost:5002/data",
-                  "content":"http://localhost:5002/data",
-                  "pageTitle": "Calendar"
-
-                },
-                {
-                  "path": "/calendar/:id",
-                  "component": "FormComponent",
-                  "openAs": "sidebar",
-                  "structure":"http://localhost:5002/data",
-                  "content":"http://localhost:5003/events",
-                  "pageTitle": "Edit Calendar Component"
-                }
-              ]
-              
-
+        {
+          "path": "/table/addNew",
+          "component": "FormComponent",
+          "openAs": "sidebar",
+          "structure": "http://localhost:5006/data",
+          "content": "http://localhost:5007/data",
+          "pageTitle": "New Form Component"
+        },
+        {
+          "path": "/table/:id",
+          "component": "FormComponent",
+          "openAs": "sidebar",
+          "pageTitle": "Edit Form Component",
+          "structure": "http://localhost:5006/data",
+          "content": "http://localhost:5007/data"
+        },
+        {
+          "path": "/table/:id/addNew",
+          "component": "FormComponent",
+          "openAs": "sidebar",
+          "pageTitle": "Edit Select options",
+          "structure": "http://localhost:5006/data",
+          "content": "http://localhost:5007/data"
+        },
+        {
+          "path": "/calendar",
+          "component": "CalenderComponent",
+          "openAs": "page",
+          "pageTitle": "Edit Form Component",
+          "structure": "http://localhost:5006/data",
+          "content": "http://localhost:5007/data"
+        },
+        {
+          "path": "/calendar/addNew",
+          "component": "FormComponent",
+          "openAs": "sidebar",
+          "structure": "http://localhost:5002/data",
+          "content": "http://localhost:5002/data",
+          "pageTitle": "Calendar"
+        },
+        {
+          "path": "/calendar/:id",
+          "component": "FormComponent",
+          "openAs": "sidebar",
+          "structure": "http://localhost:5002/data",
+          "content": "http://localhost:5003/events",
+          "pageTitle": "Edit Calendar Component"
+        },
+        {
+          "path": "/foo",
+          "component": "DataTable",
+          "openAs": "page",
+          "structure": "http://localhost:5008/data",
+          "content": "http://localhost:5009/data",
+          "pageTitle": "Edit Foo Component"
+        },
+        {
+          "path": "/foo/:id",
+          "component": "FormComponent",
+          "openAs": "sidebar",
+          "structure": "http://localhost:5006/data",
+          "content": "http://localhost:5007/data",
+          "store": "",
+          "pageTitle": "Edit Foo Component"
+        },
+        {
+          "path": "/bar",
+          "component": "DataTable",
+          "openAs": "page",
+          "structure": "http://localhost:5008/data",
+          "content": "http://localhost:5009/data",
+          "pageTitle": "Edit Bar Component"
+        },
+        {
+          "path": "/bar/:id",
+          "component": "DragResizeComponent",
+          "openAs": "page",
+          "structure": "http://localhost:5001/controller",
+          "content": "",
+          "pageTitle": "Edit Bar Component"
         }
-      }
+      ]
+    }
   }
-  
+}
