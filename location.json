@@ -1,0 +1,516 @@
+{
+  "locations": [
+    {
+      "id": "loc1",
+      "name": "Downtown Clinic",
+      "address": "123 Main St, City Center",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Health Counseling",
+          "description": "These services cover primary care, specialized treatments. icons will be provided as svg format",
+          "icon": "❤️",
+          "availableServices": [
+            {
+              "id": "physio",
+              "title": "Physiotherapy",
+              "price": 54,
+              "icon": "🧍‍♂️",
+              "extraServices": [
+                { "title": "Massage Therapy", "price": 15, "icon": "💆‍♂️" },
+                { "title": "Stretching Session", "price": 10, "icon": "🧘" }
+              ],
+              "availableEmployees": [
+                {
+                  "id": "emp1",
+                  "name": "Jackson Pot",
+                  "avatar": "https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+                  "details": "Details about Jackson Pot"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Hanson Deck",
+                  "avatar": "https://img.freepik.com/free-vector/teenage-boy-with-black-hair-cartoon-character_1308-133556.jpg",
+                  "details": "Details about Hanson Deck"
+                },
+                {
+                  "id": "emp3",
+                  "name": "Indigo Violet",
+                  "avatar": "https://img.freepik.com/premium-vector/young-teenager-with-brown-hair_684058-1020.jpg",
+                  "details": "Details about Indigo Violet"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Miles Tone",
+                  "avatar": "https://img.freepik.com/free-vector/young-prince-royal-attire_1308-176144.jpg",
+                  "details": "Details about Miles Tone"
+                }
+              ]
+            },
+            {
+              "id": "ortho",
+              "title": "Orthopedics",
+              "price": 66,
+              "icon": "🧪",
+              "extraServices": [
+                { "title": "Joint X-Ray", "price": 20, "icon": "🦴" }
+              ],
+              "availableEmployees": [
+                {
+                  "id": "emp1",
+                  "name": "Jackson Pot",
+                  "avatar": "https://fakeimg.pl/80x80/?text=JP",
+                  "details": "Details about Jackson Pot"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Hanson Deck",
+                  "avatar": "https://img.freepik.com/premium-vector/simple-cute-black-boy-ith-beard-icon-vector_960391-436.jpg",
+                  "details": "Details about Hanson Deck"
+                },
+                {
+                  "id": "emp3",
+                  "name": "Indigo Violet",
+                  "avatar": "https://fakeimg.pl/80x80/?text=IV",
+                  "details": "Details about Indigo Violet"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Miles Tone",
+                  "avatar": "https://fakeimg.pl/80x80/?text=MT",
+                  "details": "Details about Miles Tone"
+                }
+              ]
+            },
+            {
+              "id": "derma",
+              "title": "Dermatology",
+              "price": 62,
+              "icon": "🧴",
+              "extraServices": [
+                { "title": "Facial Treatment", "price": 25, "icon": "🧖" },
+                { "title": "Skin Analysis", "price": 15, "icon": "🔬" }
+              ],
+              "availableEmployees": [
+                {
+                  "id": "emp1",
+                  "name": "Jackson Pot",
+                  "avatar": "https://fakeimg.pl/80x80/?text=JP",
+                  "details": "Details about Jackson Pot"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Hanson Deck",
+                  "avatar": "https://fakeimg.pl/80x80/?text=HD",
+                  "details": "Details about Hanson Deck"
+                },
+                {
+                  "id": "emp3",
+                  "name": "Indigo Violet",
+                  "avatar": "https://fakeimg.pl/80x80/?text=IV",
+                  "details": "Details about Indigo Violet"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Miles Tone",
+                  "avatar": "https://img.freepik.com/premium-vector/cool-cartoon-boy-avatar_987671-675.jpg",
+                  "details": "Details about Miles Tone"
+                }
+              ]
+            },
+            {
+              "id": "mri",
+              "title": "MRI & CT Scans",
+              "price": 94,
+              "icon": "🖥️",
+              "extraServices": [
+                { "title": "Contrast Dye", "price": 30, "icon": "💉" }
+              ],
+              "availableEmployees": [
+                {
+                  "id": "emp1",
+                  "name": "Jackson Pot",
+                  "avatar": "https://fakeimg.pl/80x80/?text=JP",
+                  "details": "Details about Jackson Pot"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Hanson Deck",
+                  "avatar": "https://fakeimg.pl/80x80/?text=HD",
+                  "details": "Details about Hanson Deck"
+                },
+                {
+                  "id": "emp3",
+                  "name": "Indigo Violet",
+                  "avatar": "https://fakeimg.pl/80x80/?text=IV",
+                  "details": "Details about Indigo Violet"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Miles Tone",
+                  "avatar": "https://fakeimg.pl/80x80/?text=MT",
+                  "details": "Details about Miles Tone"
+                }
+              ]
+            },
+            {
+              "id": "nutrition",
+              "title": "Nutrition Advice",
+              "price": 48,
+              "icon": "🥗",
+              "extraServices": [
+                { "title": "Diet Plan", "price": 12, "icon": "📄" }
+              ],
+              "availableEmployees": [
+                {
+                  "id": "emp1",
+                  "name": "Jackson Pot",
+                  "avatar": "https://fakeimg.pl/80x80/?text=JP",
+                  "details": "Details about Jackson Pot"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Hanson Deck",
+                  "avatar": "https://fakeimg.pl/80x80/?text=HD",
+                  "details": "Details about Hanson Deck"
+                },
+                {
+                  "id": "emp3",
+                  "name": "Indigo Violet",
+                  "avatar": "https://fakeimg.pl/80x80/?text=IV",
+                  "details": "Details about Indigo Violet"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Miles Tone",
+                  "avatar": "https://fakeimg.pl/80x80/?text=MT",
+                  "details": "Details about Miles Tone"
+                }
+              ]
+            },
+            {
+              "id": "pathology",
+              "title": "Pathology",
+              "price": 39,
+              "icon": "🧬",
+              "extraServices": [
+                { "title": "Blood Test", "price": 10, "icon": "🩸" },
+                { "title": "Urine Analysis", "price": 8, "icon": "🚽" }
+              ],
+              "availableEmployees": [
+                {
+                  "id": "emp1",
+                  "name": "Jackson Pot",
+                  "avatar": "https://fakeimg.pl/80x80/?text=JP",
+                  "details": "Details about Jackson Pot"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Hanson Deck",
+                  "avatar": "https://fakeimg.pl/80x80/?text=HD",
+                  "details": "Details about Hanson Deck"
+                },
+                {
+                  "id": "emp3",
+                  "name": "Indigo Violet",
+                  "avatar": "https://fakeimg.pl/80x80/?text=IV",
+                  "details": "Details about Indigo Violet"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Miles Tone",
+                  "avatar": "https://fakeimg.pl/80x80/?text=MT",
+                  "details": "Details about Miles Tone"
+                }
+              ]
+            },
+            {
+              "id": "skin",
+              "title": "Skin Checks",
+              "price": 67,
+              "icon": "😊",
+              "extraServices": [
+                { "title": "Mole Mapping", "price": 18, "icon": "🔍" }
+              ],
+              "availableEmployees": [
+                {
+                  "id": "emp1",
+                  "name": "Jackson Pot",
+                  "avatar": "https://fakeimg.pl/80x80/?text=JP",
+                  "details": "Details about Jackson Pot"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Hanson Deck",
+                  "avatar": "https://fakeimg.pl/80x80/?text=HD",
+                  "details": "Details about Hanson Deck"
+                },
+                {
+                  "id": "emp3",
+                  "name": "Indigo Violet",
+                  "avatar": "https://fakeimg.pl/80x80/?text=IV",
+                  "details": "Details about Indigo Violet"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Miles Tone",
+                  "avatar": "https://fakeimg.pl/80x80/?text=MT",
+                  "details": "Details about Miles Tone"
+                }
+              ]
+            },
+            {
+              "id": "ophthal",
+              "title": "Ophthalmology",
+              "price": 76,
+              "icon": "👁️",
+              "extraServices": [
+                { "title": "Eye Pressure Test", "price": 14, "icon": "🔎" }
+              ],
+              "availableEmployees": [
+                {
+                  "id": "emp1",
+                  "name": "Jackson Pot",
+                  "avatar": "https://fakeimg.pl/80x80/?text=JP",
+                  "details": "Details about Jackson Pot"
+                },
+                {
+                  "id": "emp2",
+                  "name": "Hanson Deck",
+                  "avatar": "https://fakeimg.pl/80x80/?text=HD",
+                  "details": "Details about Hanson Deck"
+                },
+                {
+                  "id": "emp3",
+                  "name": "Indigo Violet",
+                  "avatar": "https://fakeimg.pl/80x80/?text=IV",
+                  "details": "Details about Indigo Violet"
+                },
+                {
+                  "id": "emp4",
+                  "name": "Miles Tone",
+                  "avatar": "https://fakeimg.pl/80x80/?text=MT",
+                  "details": "Details about Miles Tone"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Psychiatry & Counseling",
+          "description": "These services cover primary care, specialized treatments.",
+          "icon": "➕",
+          "availableServices": []
+        },
+        {
+          "id": 3,
+          "name": "Physiotherapy",
+          "description": "These services cover primary care, specialized treatments.",
+          "icon": "🏃",
+          "availableServices": []
+        },
+        {
+          "id": 4,
+          "name": "Ophthalmology",
+          "description": "These services cover primary care, specialized treatments.",
+          "icon": "👁️",
+          "availableServices": []
+        },
+        {
+          "id": 5,
+          "name": "Orthopedics",
+          "description": "These services cover primary care, specialized treatments.",
+          "icon": "⚗️",
+          "availableServices": []
+        },
+        {
+          "id": 6,
+          "name": "Dermatology",
+          "description": "These services cover primary care, specialized treatments.",
+          "icon": "🧴",
+          "availableServices": []
+        }
+      ]
+    },
+    {
+      "id": "loc2",
+      "name": "Uptown Branch",
+      "address": "456 Elm St, North Side",
+      "categories": [
+    {
+      "id": 1,
+      "name": "Hair Care",
+      "description": "Hair styling, treatments, and grooming services.",
+      "icon": "💇",
+      "availableServices": [
+        {
+          "id": "haircut",
+          "title": "Haircut",
+          "price": 25,
+          "icon": "✂️",
+          "extraServices": [
+            { "title": "Hair Wash", "price": 5, "icon": "🚿" },
+            { "title": "Blow Dry", "price": 10, "icon": "💨" }
+          ],
+          "availableEmployees": [
+            {
+              "id": "emp1",
+              "name": "Sophia Styles",
+              "avatar": "https://fakeimg.pl/80x80/?text=SS",
+              "details": "Expert in modern and classic haircuts."
+            },
+            {
+              "id": "emp2",
+              "name": "Leo Clippers",
+              "avatar": "https://fakeimg.pl/80x80/?text=LC",
+              "details": "Specialist in men’s grooming."
+            }
+          ]
+        },
+        {
+          "id": "coloring",
+          "title": "Hair Coloring",
+          "price": 45,
+          "icon": "🌈",
+          "extraServices": [
+            { "title": "Highlighting", "price": 20, "icon": "✨" },
+            { "title": "Root Touch-Up", "price": 15, "icon": "🪞" }
+          ],
+          "availableEmployees": [
+            {
+              "id": "emp3",
+              "name": "Mia Tones",
+              "avatar": "https://fakeimg.pl/80x80/?text=MT",
+              "details": "Hair coloring and highlight expert."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nail Care",
+      "description": "Manicures, pedicures, and nail art services.",
+      "icon": "💅",
+      "availableServices": [
+        {
+          "id": "manicure",
+          "title": "Manicure",
+          "price": 20,
+          "icon": "👐",
+          "extraServices": [
+            { "title": "Gel Polish", "price": 10, "icon": "💎" },
+            { "title": "French Tips", "price": 8, "icon": "🇫🇷" }
+          ],
+          "availableEmployees": [
+            {
+              "id": "emp4",
+              "name": "Nina Nails",
+              "avatar": "https://fakeimg.pl/80x80/?text=NN",
+              "details": "Precision nail artist with 5 years of experience."
+            }
+          ]
+        },
+        {
+          "id": "pedicure",
+          "title": "Pedicure",
+          "price": 25,
+          "icon": "🦶",
+          "extraServices": [
+            { "title": "Foot Massage", "price": 12, "icon": "💆" }
+          ],
+          "availableEmployees": [
+            {
+              "id": "emp4",
+              "name": "Nina Nails",
+              "avatar": "https://fakeimg.pl/80x80/?text=NN",
+              "details": "Specializes in both manicure and pedicure treatments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Skin Care",
+      "description": "Facials, treatments, and other skin rejuvenation services.",
+      "icon": "🧖",
+      "availableServices": [
+        {
+          "id": "facial",
+          "title": "Basic Facial",
+          "price": 30,
+          "icon": "🧴",
+          "extraServices": [
+            { "title": "Hydration Mask", "price": 10, "icon": "💧" },
+            { "title": "Anti-aging Serum", "price": 15, "icon": "🧬" }
+          ],
+          "availableEmployees": [
+            {
+              "id": "emp5",
+              "name": "Luna Glow",
+              "avatar": "https://fakeimg.pl/80x80/?text=LG",
+              "details": "Certified skincare expert."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Makeup",
+      "description": "Professional makeup services for all occasions.",
+      "icon": "💄",
+      "availableServices": [
+        {
+          "id": "partyMakeup",
+          "title": "Party Makeup",
+          "price": 55,
+          "icon": "🎉",
+          "extraServices": [
+            { "title": "False Eyelashes", "price": 10, "icon": "👁️" },
+            { "title": "Hair Styling Add-on", "price": 20, "icon": "💇‍♀️" }
+          ],
+          "availableEmployees": [
+            {
+              "id": "emp6",
+              "name": "Bella Brush",
+              "avatar": "https://fakeimg.pl/80x80/?text=BB",
+              "details": "Makeup artist with bridal and fashion experience."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Spa & Massage",
+      "description": "Relaxing massages and wellness treatments.",
+      "icon": "🧘",
+      "availableServices": [
+        {
+          "id": "relaxMassage",
+          "title": "Relaxation Massage",
+          "price": 40,
+          "icon": "👐",
+          "extraServices": [
+            { "title": "Aromatherapy", "price": 8, "icon": "🌺" },
+            { "title": "Hot Stone", "price": 12, "icon": "🔥" }
+          ],
+          "availableEmployees": [
+            {
+              "id": "emp7",
+              "name": "Zen Master",
+              "avatar": "https://fakeimg.pl/80x80/?text=ZM",
+              "details": "Massage therapist with 10+ years of experience."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+    }
+  ]
+}
