@@ -24,7 +24,7 @@
           "openAs": "sidebar",
           "structure": "http://localhost:5006/data",
           "content": "http://localhost:5007/data",
-          "pageTitle": "New Form Component"
+          "pageTitle": "New Appointment"
         },
         {
           "path": "/table/:id",
