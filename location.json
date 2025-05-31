@@ -2,8 +2,7 @@
   "locations": [
     {
       "id": "loc1",
-      "name": "Downtown Clinic",
-      "address": "123 Main St, City Center",
+      "name": "Howard University of United States.",
       "categories": [
         {
           "id": 1,
@@ -335,8 +334,7 @@
     },
     {
       "id": "loc2",
-      "name": "Uptown Branch",
-      "address": "456 Elm St, North Side",
+      "name": "Harlem Medical of New York.",
       "categories": [
     {
       "id": 1,
