@@ -98,6 +98,14 @@
           "structure": "http://localhost:5001/controller",
           "content": "",
           "pageTitle": "Edit Bar Component"
+        },
+        {
+          "path": "/form",
+          "component": "BuildFormComponent",
+          "openAs": "page",
+          "structure": "http://localhost:10004/wp-content/plugins/booking-engine/public/buildForm.json",
+          "content": "",
+          "pageTitle": "Edit Bar Component"
         }
       ]
     }

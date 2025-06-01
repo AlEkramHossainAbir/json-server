@@ -1,0 +1,60 @@
+{
+  "formBuilder": {
+    "settings": {
+      "title": "test",
+      "description": "sa",
+      "icon": "Settings Icon",
+      "category": "option1"
+    },
+    "controllers": [
+      {
+        "controlName": "Text Control",
+        "key": "0",
+        "dataKey": "dsadsa",
+        "label": "test`1",
+        "show_label": true,
+        "label_block": false,
+        "dynamic": false,
+        "separator": "default",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "controlName": "Text Control",
+        "key": "1",
+        "label": "fsdfdsf",
+        "dataKey": " 4324",
+        "show_label": true,
+        "label_block": false,
+        "dynamic": false,
+        "separator": "default",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "controlName": "Text Control",
+        "key": "2",
+        "label": "tt",
+        "dataKey": "43",
+        "show_label": true,
+        "label_block": false,
+        "dynamic": false,
+        "separator": "default",
+        "input_type": "text",
+        "placeholder": ""
+      },
+      {
+        "controlName": "Number Control",
+        "key": "3",
+        "dataKey": "342",
+        "label": "gdfgf",
+        "placeholder": "",
+        "show_label": true,
+        "dynamic": false,
+        "separator": "default",
+        "max": "",
+        "step": ""
+      }
+    ]
+  }
+}
